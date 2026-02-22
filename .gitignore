@@ -1,13 +1,2 @@
-# create .gitignore with node_modules and env files
-@"
 node_modules/
 .env
-.env.local
-.DS_Store
-.vscode/
-npm-debug.log
-yarn-error.log
-"@ > .gitignore
-
-# show .gitignore to verify
-type .gitignore
